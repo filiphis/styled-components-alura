@@ -1,7 +1,7 @@
 <!-- :heavy_check_mark: -->
 <!-- :construction: -->
 
-# Styled Components com JavaScript - Alura
+# Styled Components com JavaScript
 
 <!-- > **_Status:_** Finalizado :heavy_check_mark: -->
 
