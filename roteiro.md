@@ -9,7 +9,16 @@
 
 ## Aula 02 - GlobalStyle | Variáveis | Props
 
-- [ ] Aula 02
+- [x] Criar o componente `GlobalStyle` para os estilos globais.
+  - [x] `import {createGlobalStyle} from 'styled-components'`.
+  - [x] Armazenar os estilos dentro de `createGlobalStyle`.
+  - [x] Utilizar o componente `GlobalStyle` no `App`.
+- [x] Importar a fonte através do index.html.
+- [x] Criar o arquivo `variaveis.js` para salvar as variáveis de estilos.
+- [x] No componente `Cabecalho` criar o S.Componente `StyledHeader`.
+- [x] Importar as variáveis para utilizar no `StyledHeader`.
+- [x] Criar o S.Componente `Logo`.
+- [x] Criar o S.Componente `BtnCabecalho` utilizando props para reaproveitar o estilo.
 
 ## Aula 03 - Herança | Media Query
 
