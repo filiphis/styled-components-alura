@@ -22,7 +22,15 @@
 
 ## Aula 03 - Herança | Media Query
 
-- [ ] Aula 03
+- [x] Refatorar o componente `Container` criando os S.componentes `Container` e `Conteudo`.
+- [x] Criar o S.componente `Icone` para a img com classe imagem-icon.
+- [x] Criar o S.componente `IconeMargin` e herdar os estilos do S.componente `Icone`.
+- [x] refatorar o componente `Conta`:
+  - [x] Criar o S.componente `Box`.
+  - [x] Criar o S.componente `Saldo`.
+  - [x] Criar o S.componente `Detalhe`.
+  - [ ] Criar o S.componente `Botao`.
+- [x] Utilizar o @media em seus S.componentes.
 
 ## Aula 04 -
 

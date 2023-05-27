@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import * as S from "./styled";
 
 import privado from "../../assets/images/privado.svg";
 import olho_icone from "../../assets/images/olho.svg";
@@ -12,29 +13,27 @@ const Conta = () => {
   };
 
   return (
-    <div className="box">
+    <S.Box>
       <h2>Conta</h2>
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
         Saldo disponível{" "}
         <span>
-          <img className="imagem-icone" src={dinheiro} alt="Ícone Saldo" />
+          <S.Icone className="imagem-icone" src={dinheiro} alt="Ícone Saldo" />
         </span>
         {toggleState ? (
-          <div className="saldo">
-            <span className="detalhe">R$</span> 0,00{" "}
-          </div>
+          <S.Saldo>
+            <S.Detalhe>R$</S.Detalhe> 0,00{" "}
+          </S.Saldo>
         ) : null}
       </div>
 
-      <button className="btn" onClick={toggleHandler}>
-        <img
-          style={{ marginTop: "2px" }}
-          className="imagem-icone"
+      <S.Botao onClick={toggleHandler}>
+        <S.IconeMargin
           src={toggleState ? privado : olho_icone}
           alt="Privacidade do Saldo"
         />
-      </button>
-    </div>
+      </S.Botao>
+    </S.Box>
   );
 };
 
