@@ -1,5 +1,5 @@
 export const extratoLista = {
-  updates: [
+  despesas: [
     {
       id: "123131321",
       type: "Restaurante",
