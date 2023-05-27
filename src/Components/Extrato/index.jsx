@@ -3,14 +3,15 @@ import React from "react";
 import { Botao, Box } from "../Conta/styled";
 
 import { extratoLista } from "../../info";
+import Items from "../Items";
 
-console.log("info", extratoLista);
+const despesas = extratoLista.despesas;
 
 export default function Extrato() {
   return (
     <Box>
-      <h1>Extrato</h1>
-
+      <Items despesas={despesas} />
+      {/* <Items /> */}
       <Botao>Ver Mais</Botao>
     </Box>
   );

@@ -29,7 +29,7 @@
   - [x] Criar o S.componente `Box`.
   - [x] Criar o S.componente `Saldo`.
   - [x] Criar o S.componente `Detalhe`.
-  - [ ] Criar o S.componente `Botao`.
+  - [x] Criar o S.componente `Botao`.
 - [x] Utilizar o @media em seus S.componentes.
 
 ## Aula 04 -
@@ -39,10 +39,10 @@
   - [x] Importar o componente `<Button>Ver Mais</Button>`
   - [x] Importar a listagem de extrato do arquivo `info.json`.
   - [x] Importar o componente `Extrato` no componente `Container`.
-  - [ ] Criar o componente/S.componente `Items` e utiliza-lo no componente `Extrato`.
-  - [ ] Criar o componente/S.componente `Item` e seus estilos.
-  - [ ] Criar o arquivo `ImageFilter.js` para decidir qual ícone utilizar.
-    - [ ] Importar as imagens necessárias e o componente `Icone`.
+  - [x] Criar o componente/S.componente `Items` e utiliza-lo no componente `Extrato`.
+  - [x] Criar o componente/S.componente `Item` e seus estilos.
+  - [x] Criar o arquivo `ImageFilter.js` para decidir qual ícone utilizar.
+    - [x] Importar as imagens necessárias e o componente `Icone`.
 
 ## Aula 05 - Temas
 
