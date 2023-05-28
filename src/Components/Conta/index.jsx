@@ -18,7 +18,11 @@ const Conta = () => {
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
         Saldo disponível{" "}
         <span>
-          <S.Icone className="imagem-icone" src={dinheiro} alt="Ícone Saldo" />
+          <S.IconeTema
+            className="imagem-icone"
+            src={dinheiro}
+            alt="Ícone Saldo"
+          />
         </span>
         {toggleState ? (
           <S.Saldo>

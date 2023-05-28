@@ -44,6 +44,14 @@
   - [x] Criar o arquivo `ImageFilter.js` para decidir qual ícone utilizar.
     - [x] Importar as imagens necessárias e o componente `Icone`.
 
-## Aula 05 - Temas
+## Aula 05 - Utilizando Temas no StyledComponents
 
-- [ ] Aula 05
+- [x] Criar as variáveis para o tema escuro.
+- [x] Criar o arquivos `temas.js` que será responsável por importar as variáveis e exportar os temas `temaClaro` e `temaEscuro`.
+- [ ] Para utilizar os temas é necessário importar o `ThemeProvider` no componente `App`
+- [x] no componente `App` também é necessário importar os temas que criarmos em no arquivo `temas.js`.
+- [x] Nos S.components onde o estilo será mudado conforme o tema, é necessário informar que o valor da propriedade será manipulado pelo `ThemeProvider` do Styled Components. Por exemplo: `color: ${(theme) => theme.corDoTexto}`
+- [x] Criar o componente `BtnTema`, que será responsável por alterar entre os temas.
+- [x] Criar o componente `SwitcherTema`. Será responsável por alterar os ícones do componente `Icone`.
+- [x] Criar o estado `tema` e a função `toggleTema` para alterar entre os temas. Devem ficar dentro do `App`.
+- [x] Alterar também a cor dos ícones ao trocar de tema.
